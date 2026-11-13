@@ -1,0 +1,3 @@
+# Heavy (pulls PyTorch). Needed for real local embeddings; tests do not need it.
+# On CPU-only machines: pip install torch --index-url https://download.pytorch.org/whl/cpu  first.
+sentence-transformers>=3.0
